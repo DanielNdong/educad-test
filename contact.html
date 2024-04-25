@@ -250,10 +250,10 @@
     const path = window.location.pathname;
     const svgIconNavigation = [...document.querySelectorAll(".navigation_menu_wrapper div a")]
     const SVGICONS = {
-        './': svgIconNavigation[0],
-        './library.html': svgIconNavigation[1],
-        './contact.html': svgIconNavigation[2],
-        './profile.html': svgIconNavigation[3]
+        '/': svgIconNavigation[0],
+        '/library.html': svgIconNavigation[1],
+        '/contact.html': svgIconNavigation[2],
+        '/profile.html': svgIconNavigation[3]
     }
     console.log(path)
     const icon = SVGICONS[path]
