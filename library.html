@@ -251,10 +251,10 @@
     const path = window.location.pathname;
     const svgIconNavigation = [...document.querySelectorAll(".navigation_menu_wrapper div a")]
     const SVGICONS = {
-        './': svgIconNavigation[0],
-        './library.html': svgIconNavigation[1],
-        './contact.html': svgIconNavigation[3],
-        './profile.html': svgIconNavigation[4]
+        '/': svgIconNavigation[0],
+        '/library.html': svgIconNavigation[1],
+        '/contact.html': svgIconNavigation[3],
+        '/profile.html': svgIconNavigation[4]
     }
     const icon = SVGICONS[path]
     icon.classList.add('_active');
